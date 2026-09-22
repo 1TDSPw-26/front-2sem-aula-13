@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-import imgQuadrado from "../../img/quadrado.png";
-=======
 // import imgQuadrado from "../../img/quadrado.png";
 import Imagens from "../Imagens";
->>>>>>> feature/exemplo-pf0670
 
 export default function Conteudo() {
   return (

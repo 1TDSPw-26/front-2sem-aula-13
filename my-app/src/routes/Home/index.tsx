@@ -1,16 +1,4 @@
 export default function Home() {
-<<<<<<< HEAD
-  
-  // Exemplo de desestruturação
-  
-  
-  return (
-    <main>
-      <h2>Home</h2>
-    </main>
-  );
-}
-=======
 
 
     //Exemplo de destructuring
@@ -44,4 +32,3 @@ export default function Home() {
         </main>
     )
 } 
->>>>>>> feature/exemplo-pf0670
