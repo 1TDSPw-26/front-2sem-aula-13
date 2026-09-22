@@ -1,4 +1,4 @@
-import Menu from "../Menu"
+import Menu from "../Menu";
 
 export default function Cabecalho() {
     return (
@@ -6,5 +6,5 @@ export default function Cabecalho() {
             <h1>Meu Projeto</h1>
             <Menu/>
         </header>
-    )
-}
+    );
+}   
