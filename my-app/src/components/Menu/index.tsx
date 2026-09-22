@@ -1,26 +1,12 @@
-import imgQuadrado from "../../img/quadrado.png";
+import { Link } from 'react-router';
 
-export default function Imagens() {
+export default function Menu() {
   return (
-    <div>
-        
-        <figure>
-          <img
-            src="https://placehold.co/300x200/0000FF/FFFFFF/png"
-            alt="Figure de demonstração"
-          />
-          <figcaption>Imagem Externa</figcaption>
-        </figure>
-        
-        <figure>
-          <img src={imgQuadrado} alt="Figure de demonstração" />
-            <figcaption>Imagem Interna</figcaption>
-        </figure>
-
-        <figure>
-          <img src="/image/quadrado-b.png" alt="Figure de demonstração" />
-            <figcaption>Imagem Estática</figcaption>
-        </figure>
-    </div>
-  )
+    <nav>
+      <ul style={{listStyle: "none", padding: 0, margin: 0} }>
+        <li style={{margin: "0 10px", display: "inline-block"}}><Link to="/">Home</Link></li>
+        <li style={{margin: "0 10px", display: "inline-block"}}><Link to="/produtos">Produtos</Link></li>
+      </ul>
+    </nav>
+  );
 }
