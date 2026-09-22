@@ -11,10 +11,8 @@ const listaProdutos = [
 ]
 
 export default function EditarProdutos() {
-
       //Através do destructuring, podemos acessar os dados do objeto e atribuir a variáveis
       //const { } = object
-
       const { id } = useParams<{id: string}>();
 
       const produto = listaProdutos.find( ( p )=> p.id === Number(id));
@@ -33,7 +31,6 @@ export default function EditarProdutos() {
           </div>) :
           (<p>Produto não encontrado</p>)
         }
-
 
     </main>
   )
