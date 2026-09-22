@@ -1,7 +1,8 @@
+
 export default function Error() {
-    return(
+    return (
         <main>
-            <h2>404 - Pagina não encontrada</h2>
-            </main>
+            <h2>404 - Página não encontrada</h2>
+        </main>
     )
 }
