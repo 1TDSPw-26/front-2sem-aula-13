@@ -1,4 +1,18 @@
+import { useState } from "react";
+
+
+
 export default function Home() {
+    document.title = "Home";
+
+    const [usuarios, setUsuarios] = useState<TipoUsuarioGit[]>([]);
+
+    return (
+        <main>
+            <h2>Home</h2>
+        </main>
+    )
+} 
 
 
     //Exemplo de destructuring
