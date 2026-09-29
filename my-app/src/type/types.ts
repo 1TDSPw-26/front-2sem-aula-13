@@ -1,7 +1,14 @@
+export type TipoProduto = {
+    id: string;
+    nome: string;
+    preco: number;
+    estoque: number;
+};
+
 export type TipoUsuarioGit = {
-    login:string;
-    id: number,
-    node_id:string;
+    login: string;
+    id: number;
+    node_id: string;
     avatar_url: string;
     gravatar_id: string;
     url: string;
@@ -17,5 +24,19 @@ export type TipoUsuarioGit = {
     received_events_url: string;
     type: string;
     user_view_type: string;
-    site_admin: boolean;
-}
+    site_admin: Boolean;
+    name: string;
+    company: string;
+    blog: string;
+    location: string;
+    email: string;
+    hireable: string;
+    bio: string;
+    twitter_username: string;
+    public_repos: number;
+    public_gists: number;
+    followers: number;
+    following: number;
+    created_at: string;
+    updated_at: string;
+};
